@@ -1,13 +1,4 @@
-require "pry"
-
-class EmailParser 
-  attr_accessor :emails
-  
-  def initialize(emails)
-    @emails = emails
+class EmailParser
+  def parse 
   end 
-
-  def parse
-    @emails.split(/, |\s/).uniq
-  end 
-end
+end 
