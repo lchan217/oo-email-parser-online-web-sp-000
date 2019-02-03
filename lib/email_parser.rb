@@ -5,6 +5,7 @@ class EmailParser
     @string = string
   end 
   
-  def parse 
+  def parse(string)
+    string.split(", ")
   end 
 end 
