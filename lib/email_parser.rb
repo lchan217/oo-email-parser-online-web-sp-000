@@ -6,6 +6,6 @@ class EmailParser
   end 
   
   def parse(string)
-    string.split(", ")
+    result = string.split(", ")
   end 
 end 
