@@ -1,11 +1,11 @@
 class EmailParser
-  attr_accessor :string
+  attr_accessor :email
   
-  def initialize(string)
-    @string = string
+  def initialize(email)
+    @email = email
   end 
   
   def parse(string)
-    result = string.split(", ")
+    result = string.split(", ").uniq 
   end 
 end 
