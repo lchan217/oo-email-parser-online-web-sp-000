@@ -6,6 +6,6 @@ class EmailParser
   end 
   
   def parse(string)
-    result = string.split(", ").uniq 
+    @email.split(", ").uniq
   end 
 end 
